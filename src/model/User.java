@@ -4,6 +4,8 @@
  */
 package model;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author JINESH
@@ -16,6 +18,7 @@ public class User {
     String level;
     String phoneNo;
     String email;
+    ImageIcon pic;
     
 
     public String getName() {
@@ -72,6 +75,19 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public ImageIcon getPic() {
+        return pic;
+    }
+
+    public void setPic(ImageIcon pic) {
+        this.pic = pic;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 
     

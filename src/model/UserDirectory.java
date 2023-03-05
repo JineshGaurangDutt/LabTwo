@@ -5,6 +5,7 @@
 package model;
 
 import java.util.ArrayList;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -37,6 +38,10 @@ public class UserDirectory {
     @Override
     public String toString() {
         return "UserDirectory{" + "allUsers=" + allUsers + '}';
+    }
+
+    public void setPic(ImageIcon imageIcon) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     
